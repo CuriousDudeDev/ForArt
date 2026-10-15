@@ -9,4 +9,4 @@ for i in range(1 , columns+1):
 			value = 1
 		print(value , end=' ')
 		number += 1
-	print('\n')
+	print()
