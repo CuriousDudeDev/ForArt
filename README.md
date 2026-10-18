@@ -28,7 +28,15 @@ Recommended Learning Procedure.
    cd ForArt
    ```
 
-
+*CLI*
+I have added the cli to make it an interactive version in terminal
+_Usage instructions_
+ - ```bash
+ 	cd ForArt
+ 	```
+ - ```bash
+ 	python3 cli.py
+ 	```
 
 **Repository Tree**
 ```bash
