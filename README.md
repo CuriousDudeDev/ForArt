@@ -21,15 +21,17 @@ Recommended Learning Procedure.
 3. Make your own version of this repository.
 
 *_How to clone the repository_*
-1. '''bash
- git clone https://github.com/CuriousDudeDev/ForArt
-'''
-2. '''bash
+1. ```text
+   git clone https://github.com/CuriousDudeDev/ForArt
+   ```
+2. ```text
    cd ForArt
-   '''
+   ```
+
+
 
 **Repository Tree**
-'''bash
+```bash
 .
 ├── Art
 │   ├── 1
@@ -104,4 +106,4 @@ Recommended Learning Procedure.
 └── README.md
 
 13 directories, 59 files
-'''
+```
