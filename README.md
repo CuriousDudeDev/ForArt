@@ -10,8 +10,10 @@ The repository has an MIT License with a folder named Art.
 Here 1 is the easiest and 3 is the hardest.
 
 _How can this be helpful_
+
 Well, It might not be helpful for an experienced progrmamer.
 It can definitely help out a beginner.
+
 ----
 Recommended Learning Procedure.
 1. Use an AI tool to generate pattern blocks and try to implement them in the way you would like.
@@ -19,11 +21,15 @@ Recommended Learning Procedure.
 3. Make your own version of this repository.
 
 *_How to clone the repository_*
-1. bash'git clone https://github.com/CuriousDudeDev/ForArt'
-2. cd ForArt
+1. '''bash
+ git clone https://github.com/CuriousDudeDev/ForArt
+'''
+2. '''bash
+   cd ForArt
+   '''
 
 **Repository Tree**
-"
+'''bash
 .
 ├── Art
 │   ├── 1
@@ -98,4 +104,4 @@ Recommended Learning Procedure.
 └── README.md
 
 13 directories, 59 files
-"
+'''
