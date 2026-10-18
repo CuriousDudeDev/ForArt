@@ -110,8 +110,10 @@ _Usage instructions_
 │       ├── pluspattern.py
 │       ├── solidrhombus.py
 │       └── xpattern.py
+├── cli.py
 ├── LICENSE
 └── README.md
 
-13 directories, 59 files
+13 directories, 60 files
+
 ```
