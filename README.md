@@ -39,7 +39,7 @@ _Usage instructions_
  	```
 
 *Alternative option to use the cli*
- - FInd the exe release in the releases section of "https://github.com/CuriousDudeDev/ForArt/releaes
+ - FInd the exe release in the releases section of "https://github.com/CuriousDudeDev/ForArt/releases "
  - Download the exe file
  - Run the exe file in your computer
 
