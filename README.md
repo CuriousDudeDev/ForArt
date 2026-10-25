@@ -28,17 +28,7 @@ Recommended Learning Procedure.
    cd ForArt
    ```
 
-*CLI*
-I have added the cli to make it an interactive version in terminal
-_Usage instructions_
- - ```bash
- 	cd ForArt
- 	```
- - ```bash
- 	python3 cli.py
- 	```
-
-*Alternative option to use the cli*
+*to use the cli*
  - FInd the exe release in the releases section of "https://github.com/CuriousDudeDev/ForArt/releases "
  - Download the exe file
  - Run the exe file in your computer
@@ -47,79 +37,103 @@ _Usage instructions_
 **Repository Tree**
 ```bash
 .
-├── Art
-│   ├── 1
-│   │   ├── alphabets
-│   │   │   ├── alphabetrighttriangle.py
-│   │   │   ├── CAPITALalphabetrighttriangle.py
-│   │   │   ├── CAPITALinvertedalphabetrighttriangle.py
-│   │   │   └── invertedalphabetrighttriangle.py
-│   │   ├── numbers
-│   │   │   ├── binarytriangle.py
-│   │   │   ├── floydstriangle.py
-│   │   │   ├── invertedrepeatedrownumbertriangle.py
-│   │   │   ├── invertedrighttriangleofnumbers.py
-│   │   │   ├── repeatedincreasingnumberflow.py
-│   │   │   ├── repeatedrownumbertriangle.py
-│   │   │   ├── righttriangleofnumbers.py
-│   │   │   └── samedigitrows.py
-│   │   └── stars
-│   │       ├── diamondofstars.py
-│   │       ├── hollowsquareofstars.py
-│   │       ├── invertedlefttriangleofstars.py
-│   │       ├── invertedpyramidofstars.py
-│   │       ├── invertedrighttriangleofstars.py
-│   │       ├── lefttriangleofstars.py
-│   │       ├── pyramidofstars.py
-│   │       ├── rectangleofstars.py
-│   │       ├── righttriangleofstars.py
-│   │       └── squareofstars.py
-│   ├── 2
-│   │   ├── alphabets
-│   │   │   ├── alphabetpyramid.py
-│   │   │   ├── invertedalphabetpyramid.py
-│   │   │   ├── invertedsameletterrighttriangle.py
-│   │   │   └── sameletterrighttriangle.py
-│   │   ├── binarypyramid.py
-│   │   ├── numbers
-│   │   │   ├── invertednumberpyramid.py
-│   │   │   ├── invertedpalindromicpyramid.py
-│   │   │   ├── invertedsamenumberpyramid.py
-│   │   │   ├── multiplicationtable.py
-│   │   │   ├── numberpyramid.py
-│   │   │   ├── palindromicnumberpyramid.py
-│   │   │   └── samenumberpyramid.py
-│   │   └── stars
-│   │       ├── checkerboardpatter.py
-│   │       ├── hollowpyramid.py
-│   │       ├── hollowrighttriangle.py
-│   │       ├── hourglassofstars.py
-│   │       ├── invertedhollowpyramid.py
-│   │       ├── invertedhollowrighttriangle.py
-│   │       ├── leftpascaltriangle.py
-│   │       └── rightpascaltriangle.py
-│   └── 3
-│       ├── alphabets
-│       │   ├── alphabetrevereserighttriangle.py
-│       │   └── alphabetsfloydtriangle.py
-│       ├── butterflypattern.py
-│       ├── hollowdiamond.py
-│       ├── hollowrhombus.py
-│       ├── numbers
-│       │   ├── diamondwithnumbers.py
-│       │   ├── evennumbertriangle.py
-│       │   ├── numberhollowrighttriangle.py
-│       │   ├── oddnumbertriangle.py
-│       │   ├── righttriangleofsquare.py
-│       │   ├── rowstartnumbertriangle.py
-│       │   └── sandglasswithnumbers.py
-│       ├── pluspattern.py
-│       ├── solidrhombus.py
-│       └── xpattern.py
-├── cli.py
+├── build
+│   └── forart
+│       ├── Analysis-00.toc
+│       ├── base_library.zip
+│       ├── EXE-00.toc
+│       ├── forart.pkg
+│       ├── localpycs
+│       │   ├── pyimod01_archive.pyc
+│       │   ├── pyimod02_importers.pyc
+│       │   ├── pyimod03_ctypes.pyc
+│       │   └── struct.pyc
+│       ├── PKG-00.toc
+│       ├── PYZ-00.pyz
+│       ├── PYZ-00.toc
+│       ├── warn-forart.txt
+│       └── xref-forart.html
+├── dist
+│   └── forart
+├── forart
+│   ├── Art
+│   │   ├── 1
+│   │   │   ├── alphabets
+│   │   │   │   ├── alphabetrighttriangle.py
+│   │   │   │   ├── CAPITALalphabetrighttriangle.py
+│   │   │   │   ├── CAPITALinvertedalphabetrighttriangle.py
+│   │   │   │   └── invertedalphabetrighttriangle.py
+│   │   │   ├── numbers
+│   │   │   │   ├── binarytriangle.py
+│   │   │   │   ├── floydstriangle.py
+│   │   │   │   ├── invertedrepeatedrownumbertriangle.py
+│   │   │   │   ├── invertedrighttriangleofnumbers.py
+│   │   │   │   ├── repeatedincreasingnumberflow.py
+│   │   │   │   ├── repeatedrownumbertriangle.py
+│   │   │   │   ├── righttriangleofnumbers.py
+│   │   │   │   └── samedigitrows.py
+│   │   │   └── stars
+│   │   │       ├── diamondofstars.py
+│   │   │       ├── hollowsquareofstars.py
+│   │   │       ├── invertedlefttriangleofstars.py
+│   │   │       ├── invertedpyramidofstars.py
+│   │   │       ├── invertedrighttriangleofstars.py
+│   │   │       ├── lefttriangleofstars.py
+│   │   │       ├── pyramidofstars.py
+│   │   │       ├── rectangleofstars.py
+│   │   │       ├── righttriangleofstars.py
+│   │   │       └── squareofstars.py
+│   │   ├── 2
+│   │   │   ├── alphabets
+│   │   │   │   ├── alphabetpyramid.py
+│   │   │   │   ├── invertedalphabetpyramid.py
+│   │   │   │   ├── invertedsameletterrighttriangle.py
+│   │   │   │   └── sameletterrighttriangle.py
+│   │   │   ├── binarypyramid.py
+│   │   │   ├── numbers
+│   │   │   │   ├── invertednumberpyramid.py
+│   │   │   │   ├── invertedpalindromicpyramid.py
+│   │   │   │   ├── invertedsamenumberpyramid.py
+│   │   │   │   ├── multiplicationtable.py
+│   │   │   │   ├── numberpyramid.py
+│   │   │   │   ├── palindromicnumberpyramid.py
+│   │   │   │   └── samenumberpyramid.py
+│   │   │   └── stars
+│   │   │       ├── checkerboardpatter.py
+│   │   │       ├── hollowpyramid.py
+│   │   │       ├── hollowrighttriangle.py
+│   │   │       ├── hourglassofstars.py
+│   │   │       ├── invertedhollowpyramid.py
+│   │   │       ├── invertedhollowrighttriangle.py
+│   │   │       ├── leftpascaltriangle.py
+│   │   │       └── rightpascaltriangle.py
+│   │   └── 3
+│   │       ├── alphabets
+│   │       │   ├── alphabetrevereserighttriangle.py
+│   │       │   └── alphabetsfloydtriangle.py
+│   │       ├── butterflypattern.py
+│   │       ├── hollowdiamond.py
+│   │       ├── hollowrhombus.py
+│   │       ├── numbers
+│   │       │   ├── diamondwithnumbers.py
+│   │       │   ├── evennumbertriangle.py
+│   │       │   ├── numberhollowrighttriangle.py
+│   │       │   ├── oddnumbertriangle.py
+│   │       │   ├── righttriangleofsquare.py
+│   │       │   ├── rowstartnumbertriangle.py
+│   │       │   └── sandglasswithnumbers.py
+│   │       ├── pluspattern.py
+│   │       ├── solidrhombus.py
+│   │       └── xpattern.py
+│   ├── cli.py
+│   └── __init__.py
+├── forart.spec
 ├── LICENSE
+├── pyproject.toml
 └── README.md
 
-13 directories, 60 files
+18 directories, 77 files
+
+
 
 ```
