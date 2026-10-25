@@ -6,3 +6,4 @@ dist/
 .venv/
 *.whl
 *.tar.gz
+*.spec

@@ -38,6 +38,12 @@ _Usage instructions_
  	python3 cli.py
  	```
 
+*Alternative option to use the cli*
+ - FInd the exe release in the releases section of "https://github.com/CuriousDudeDev/ForArt/releaes
+ - Download the exe file
+ - Run the exe file in your computer
+
+
 **Repository Tree**
 ```bash
 .

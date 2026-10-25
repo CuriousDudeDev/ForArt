@@ -1,8 +1,15 @@
-from importlib.resources import files
+import sys
+from pathlib import Path
 
-art_root = files("forart").joinpath("Art")
-artfiles = sorted(art_root.rglob("*.py"))
 
+def _get_art_dir():
+    if getattr(sys, 'frozen', False):
+        return Path(sys._MEIPASS) / 'forart' / 'Art'
+    from importlib.resources import files
+    return Path(str(files('forart').joinpath('Art')))
+
+
+artfiles = sorted(_get_art_dir().rglob("*.py"))
 
 
 
@@ -14,6 +21,7 @@ def main():
         print('\n\n')
         print("0. Exit\n")
         num = 1
+        art_root = _get_art_dir()
         prefix = str(art_root) + "/"
         for i in artfiles:
             print(f"{num}. {str(i)[len(prefix):]}")
@@ -30,7 +38,7 @@ def main():
             else:
                 file = artfiles[option - 1]
                 print('Here is it -- ||\n')
-                exec(open(file).read())
+                exec(file.read_text())
                 print('\nDone!!\n')
 
         else:
